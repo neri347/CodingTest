@@ -130,6 +130,7 @@
     <ClCompile Include="BinarySearchTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="MinimunSpanningTree.cpp" />
     <ClCompile Include="TreeTraversal.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
