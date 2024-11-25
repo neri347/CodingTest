@@ -5,11 +5,12 @@
 #include <queue>
 using namespace std;
 
-struct Compare
+class Compare
 {
+public:
 	bool operator()(const pair<int, int>& a, const pair<int, int>& b)
 	{
-		return a.first > b.first;
+		return a.second > b.second;
 	}
 };
 
@@ -17,44 +18,42 @@ struct Compare
 vector<int> solution(int start, int numNodes, vector<tuple<int, int, int>> edges)
 {
 	// 그래프 생성
-	vector<vector<pair<int, int>>> adjList(numNodes); // to, weight
+	vector<vector<pair<int, int>>> graph(numNodes);
 	for (const auto& [from, to, weight] : edges)
 	{
-		adjList[from].push_back({ to, weight });
+		graph[from].push_back({ to, weight });
 	}
 
+	vector<int> distances(numNodes, INT_MAX);
 	vector<bool> isVisited(numNodes, false);
-	vector<int> costs(numNodes, INT_MAX);
-	costs[start] = 0;
+	priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> pq;
+	distances[start] = 0;
+	pq.push({ start, 0 });
 
-	priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> pq; // cost, nodeNum
-	// 시작 노드 설정
-	pq.push({ 0, start });
-	// 방문하지 않은 노드 중에서 최소 비용으로 방문할 수 있는 노드 선택
-	// 선택된 노드를 거쳐서 갈 수 있는 노드가 있다면,
-	// 그 노드의 현재 비용과 선택된 노드를 거쳐가는 비용을 비교해서 후자가 적으면 갱신한다.
 	while (!pq.empty())
 	{
-		int currentCost = pq.top().first;
-		int currentNode = pq.top().second;
+		int vertex = pq.top().first;
+		int currentDistance = pq.top().second;
 		pq.pop();
-		if (isVisited[currentNode])
+
+		if (isVisited[vertex])
 		{
 			continue;
 		}
-		isVisited[currentNode] = true;
-		for (const auto& [to, weight] : adjList[currentNode])
+		isVisited[vertex] = true;
+
+		for (auto& [to, weight] : graph[vertex])
 		{
-			int newWeight = currentCost + weight;
-			if (newWeight < costs[to])
+			int newWeight = distances[vertex] + weight;
+			if (distances[to] > newWeight)
 			{
-				costs[to] = newWeight;
-				pq.push({ newWeight, to });
+				distances[to] = newWeight;
+				pq.push({ to, newWeight });
 			}
 		}
 	}
 
-	return costs;
+	return distances;
 }
 
 int main()
