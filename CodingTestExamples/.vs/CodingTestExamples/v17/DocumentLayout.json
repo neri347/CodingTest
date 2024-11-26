@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\CodingTest\\CodingTestExamples\\",
+  "WorkspaceRootPath": "D:\\CodingTest\\CodingTestExamples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Sudoku.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\Sudoku.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\SumCombinations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\MinimunSpanningTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\Bellman-FordAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\BinarySearchTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\Union-FindAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5513E5-451D-449F-A6C0-41E2B0718A35}|CodingTestExamples\\CodingTestExamples.vcxproj|solutionrelative:CodingTestExamples\\TreeTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -47,106 +51,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sudoku.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Sudoku.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\Sudoku.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Sudoku.cpp",
+              "RelativeToolTip": "CodingTestExamples\\Sudoku.cpp",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAIwF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T08:31:56.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SumCombinations.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp",
               "RelativeDocumentMoniker": "CodingTestExamples\\SumCombinations.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\SumCombinations.cpp",
               "RelativeToolTip": "CodingTestExamples\\SumCombinations.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-21T08:07:29.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CountNetwork_UnionFindAlgo.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
               "RelativeDocumentMoniker": "CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
               "RelativeToolTip": "CodingTestExamples\\CountNetwork_UnionFindAlgo.cpp",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAACUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-18T10:51:20.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bellman-FordAlgorithm.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp",
-              "RelativeDocumentMoniker": "CodingTestExamples\\Bellman-FordAlgorithm.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp",
-              "RelativeToolTip": "CodingTestExamples\\Bellman-FordAlgorithm.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-16T11:21:53.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dijkstra.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp",
-              "RelativeDocumentMoniker": "CodingTestExamples\\Dijkstra.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp",
-              "RelativeToolTip": "CodingTestExamples\\Dijkstra.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAD4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T08:00:25.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MinimunSpanningTree.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp",
-              "RelativeDocumentMoniker": "CodingTestExamples\\MinimunSpanningTree.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp",
-              "RelativeToolTip": "CodingTestExamples\\MinimunSpanningTree.cpp",
-              "ViewState": "AQIAADkAAAAAAAAAAAAswEEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T10:41:30.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Union-FindAlgorithm.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp",
-              "RelativeDocumentMoniker": "CodingTestExamples\\Union-FindAlgorithm.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp",
-              "RelativeToolTip": "CodingTestExamples\\Union-FindAlgorithm.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T03:16:42.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:51:20.527Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BinarySearchTree.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp",
-              "RelativeDocumentMoniker": "CodingTestExamples\\BinarySearchTree.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp",
-              "RelativeToolTip": "CodingTestExamples\\BinarySearchTree.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAApAAAA",
+              "Title": "Bellman-FordAlgorithm.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\Bellman-FordAlgorithm.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Bellman-FordAlgorithm.cpp",
+              "RelativeToolTip": "CodingTestExamples\\Bellman-FordAlgorithm.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T02:42:03.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T11:21:53.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dijkstra.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\Dijkstra.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Dijkstra.cpp",
+              "RelativeToolTip": "CodingTestExamples\\Dijkstra.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAD4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T08:00:25.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinimunSpanningTree.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\MinimunSpanningTree.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\MinimunSpanningTree.cpp",
+              "RelativeToolTip": "CodingTestExamples\\MinimunSpanningTree.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswEEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T10:41:30.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Union-FindAlgorithm.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\Union-FindAlgorithm.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\Union-FindAlgorithm.cpp",
+              "RelativeToolTip": "CodingTestExamples\\Union-FindAlgorithm.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T03:16:42.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BinarySearchTree.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp",
+              "RelativeDocumentMoniker": "CodingTestExamples\\BinarySearchTree.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\BinarySearchTree.cpp",
+              "RelativeToolTip": "CodingTestExamples\\BinarySearchTree.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T02:42:03.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TreeTraversal.cpp",
-              "DocumentMoniker": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp",
               "RelativeDocumentMoniker": "CodingTestExamples\\TreeTraversal.cpp",
-              "ToolTip": "C:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingTestExamples\\CodingTestExamples\\TreeTraversal.cpp",
               "RelativeToolTip": "CodingTestExamples\\TreeTraversal.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T02:20:46.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T02:20:46.875Z"
             }
           ]
         }
