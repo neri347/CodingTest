@@ -57,5 +57,11 @@
     <ClCompile Include="Sequences_ver1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CountSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingRoomAssignment.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
