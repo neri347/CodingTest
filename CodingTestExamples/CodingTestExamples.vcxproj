@@ -169,6 +169,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="MinimunSpanningTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
