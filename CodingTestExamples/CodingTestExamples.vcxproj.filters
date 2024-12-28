@@ -66,5 +66,8 @@
     <ClCompile Include="MergeSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SortingString.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
