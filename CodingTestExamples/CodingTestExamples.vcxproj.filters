@@ -90,5 +90,14 @@
     <ClCompile Include="SnailArray.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="TransformBinary.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Carpet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CuttingRollcake.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
