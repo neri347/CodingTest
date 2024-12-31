@@ -99,5 +99,20 @@
     <ClCompile Include="CuttingRollcake.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="JumpAndTeleport.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCSLength.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LISLength.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LocatePebbles.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationOfCharacter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
