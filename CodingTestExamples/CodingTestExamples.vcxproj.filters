@@ -114,5 +114,17 @@
     <ClCompile Include="LocationOfCharacter.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DeliverySugar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiling_2xn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceNumberSum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbStairs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
