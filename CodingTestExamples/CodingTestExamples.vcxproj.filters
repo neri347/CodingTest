@@ -126,5 +126,11 @@
     <ClCompile Include="ClimbStairs.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="IntegerTriangle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayHopscotch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
