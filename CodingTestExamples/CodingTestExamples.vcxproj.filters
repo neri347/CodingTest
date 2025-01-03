@@ -135,5 +135,14 @@
     <ClCompile Include="FindBiggestSquare.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="GivingChange.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FractionKnapsackProblem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalKnapsack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
