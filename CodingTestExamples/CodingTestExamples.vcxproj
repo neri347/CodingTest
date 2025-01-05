@@ -158,6 +158,10 @@
     <ClCompile Include="CountNetwork_UnionFindAlgo.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CountQuadTree.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="CuttingRollcake.cpp">
       <SubType>
       </SubType>
@@ -267,6 +271,10 @@
     </ClCompile>
     <ClCompile Include="MinimunSpanningTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Move110.cpp">
+      <SubType>
+      </SubType>
     </ClCompile>
     <ClCompile Include="NormalKnapsack.cpp">
       <SubType>
