@@ -1,30 +1,43 @@
 /// 정수 삼각형
+/// https://www.acmicpc.net/problem/1932
 /// https://school.programmers.co.kr/learn/courses/30/lessons/43105
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
-int solution(vector<vector<int>> triangle) {
-	int answer = 0;
-	int size = triangle.size();
-	vector<vector<int>> dp(size, vector<int>(size, 0));
-	dp[0][0] = triangle[0][0];
-
-	for (int i = 0; i < triangle.size() - 1; ++i)
+int main()
+{
+	// 입력
+	int n;
+	cin >> n;
+	vector<vector<int>> numbers(n, vector<int>(n, 0));
+	for (int i = 0; i < n; ++i)
 	{
-		for (int j = 0; j < triangle[i].size(); ++j)
+		for (int j = 0; j <= i; ++j)
 		{
-			dp[i + 1][j] = max(dp[i + 1][j], dp[i][j] + triangle[i + 1][j]);
-			dp[i + 1][j + 1] = dp[i][j] + triangle[i + 1][j + 1];
+			int num;
+			cin >> num;
+			numbers[i][j] = num;
 		}
 	}
 
-	return *max_element(dp[size - 1].begin(), dp[size - 1].end());
-}
+	// 풀이
+	// 거꾸로 올라가면서 계산
+	vector<vector<int>> dp(n, vector<int>(n, 0));
+	for (int i = 0; i < n; ++i)
+	{
+		dp[n - 1][i] = numbers[n - 1][i];
+	}
 
-int main()
-{
+	for (int i = n - 2; i >= 0; --i)
+	{
+		for (int j = 0; j <= i; ++j)
+		{
+			dp[i][j] = max(dp[i + 1][j], dp[i + 1][j + 1]) + numbers[i][j];
+		}
+	}
 
+	cout << dp[0][0];
 	return 0;
 }
