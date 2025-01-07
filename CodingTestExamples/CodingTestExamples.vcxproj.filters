@@ -168,5 +168,8 @@
     <ClCompile Include="MakeToOne.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="EasyStairNumber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
