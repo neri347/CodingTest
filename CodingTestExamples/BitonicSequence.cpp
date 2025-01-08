@@ -2,6 +2,7 @@
 /// https://www.acmicpc.net/problem/11054
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -16,21 +17,31 @@ int main()
 		cin >> num;
 		numbers.push_back(num);
 	}
-	vector<vector<int>> dp(2, vector<int>(n, 0));
-	dp[0][0] = 1;
-	dp[0][1] = 1;
-	for (int i = 1; i < n; ++i)
+	vector<int> dp1(n, 0);
+	vector<int> dp2(n, 0);
+	for (int i = 0; i < n; ++i)
 	{
-		if (numbers[i] < numbers[i - 1])
+		dp1[i] = 1;
+		dp2[n - 1 - i] = 1;
+		for (int j = 0; j < i; ++j)
 		{
-			dp[i][1] = dp[i - 1][0] + 1;
-		}
-		else
-		{
-			dp[i][0] = dp[i - 1][0] + 1;
-			dp[i][1] = dp[i - 1][1];
+			if (numbers[j] < numbers[i])
+			{
+				dp1[i] = max(dp1[i], dp1[j] + 1);
+			}
+			if (numbers[n - 1 - j] < numbers[n - 1 - i])
+			{
+				dp2[n - 1 - i] = max(dp2[n - 1 - i], dp2[n - 1 - j] + 1);
+			}
 		}
 	}
+
+	int value = dp1[0] + dp2[0];
+	for (int i = 1; i < n; ++i)
+	{
+		value = max(value, dp1[i] + dp2[i]);
+	}
+	cout << value - 1;
 
 	return 0;
 }
