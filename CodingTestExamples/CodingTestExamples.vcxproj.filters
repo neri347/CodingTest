@@ -177,5 +177,17 @@
     <ClCompile Include="WineTasting.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="AlarmClock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Average.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Josephus.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Laboratory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
