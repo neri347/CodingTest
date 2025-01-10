@@ -189,5 +189,8 @@
     <ClCompile Include="Laboratory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RobotCleaner.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
