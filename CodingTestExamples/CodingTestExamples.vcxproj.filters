@@ -174,5 +174,8 @@
     <ClCompile Include="BitonicSequence.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="WineTasting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

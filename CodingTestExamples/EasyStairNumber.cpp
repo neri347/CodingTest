@@ -12,7 +12,7 @@ int main()
 	long long mod = 1000000000;
 	vector<vector<int>> dp(n + 1, vector<int>(10, 0));
 
-	for (int i = 1; i < 10; ++i)
+	for (int i = 1; i <= 9; ++i)
 	{
 		dp[1][i] = 1;
 	}
@@ -36,12 +36,12 @@ int main()
 		}
 	}
 
-	long long sum = 0;
+	long long ret = 0;
 	for (int i = 0; i <= 9; ++i)
 	{
-		sum += dp[n][i];
+		ret += dp[n][i];
 	}
-	cout << sum % mod;
+	cout << ret % mod;
 
 	return 0;
 }
