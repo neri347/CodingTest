@@ -10,10 +10,16 @@ int dx[4] = { -1, 0, 1, 0 };
 int dy[4] = { 0, 1, 0, -1 };
 int rooms[51][51];
 int cleanCount;
+bool workFlag = true;
+
+bool IsValid(int x, int y)
+{
+	return x >= 0 && x < r && y >= 0 && y < c;
+}
 
 bool IsDirtyRoom(int x, int y)
 {
-	return x >= 0 && x < r && y >= 0 && y < c && rooms[x][y] == 0;
+	return IsValid(x, y) && rooms[x][y] == 0;
 }
 
 bool FindDirtyRoom(int x, int y)
@@ -32,6 +38,11 @@ bool FindDirtyRoom(int x, int y)
 
 void DFS(int cx, int cy, int cdir)
 {
+	if (!workFlag)
+	{
+		return;
+	}
+
 	if (rooms[cx][cy] == 0)
 	{
 		++cleanCount;
@@ -42,27 +53,36 @@ void DFS(int cx, int cy, int cdir)
 	if (FindDirtyRoom(cx, cy))
 	{
 		// 반시계 방향으로 90도 회전
-		--cdir;
-		if (cdir < 0)
+		int ndir = cdir - 1;
+		if (ndir < 0)
 		{
-			cdir = 3;
+			ndir = 3;
 		}
 		// 회전한 방향으로 한 칸 앞의 방이 청소되지 않았다면 한 칸 전진
-		int nx = cx + dx[cdir];
-		int ny = cy + dy[cdir];
+		int nx = cx + dx[ndir];
+		int ny = cy + dy[ndir];
 		if (IsDirtyRoom(nx, ny))
 		{
-			DFS(nx, ny, cdir);
+			DFS(nx, ny, ndir);
+		}
+		else
+		{
+			DFS(cx, cy, ndir);
 		}
 	}
-	else
+	else // 주변 4칸 중 청소되지 않은 빈 칸이 없는 경우
 	{
 		// 한 칸 후진할 수 있다면 후진 후 재귀
 		int bx = cx - dx[cdir];
 		int by = cy - dy[cdir];
-		if (IsDirtyRoom(bx, by))
+		if (IsValid(bx, by) && rooms[bx][by] != 1)
 		{
-			
+			DFS(bx, by, cdir);
+		}
+		else
+		{
+			workFlag = false;
+			return;
 		}
 	}
 }
