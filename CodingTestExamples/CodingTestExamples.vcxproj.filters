@@ -219,5 +219,11 @@
     <ClCompile Include="GameDevelop.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BabyShark.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
