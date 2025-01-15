@@ -16,6 +16,7 @@ int solution(vector<int> nums)
 	dp[0] = 1;
 	for (int N = 1; N < nums.size(); ++N)
 	{
+		dp[N] = 1;
 		for (int K = 0; K < N; ++K)
 		{
 			if (nums[N] > nums[K])
@@ -29,7 +30,8 @@ int solution(vector<int> nums)
 
 int main()
 {
-	vector<int> nums = { 1,4,2,3,1,5,7,3 };
+	//vector<int> nums = { 1,4,2,3,1,5,7,3 };
+	vector<int> nums = { 50,60,10,20,30,40 };
 	cout << solution(nums);
 	return 0;
 }
