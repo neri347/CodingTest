@@ -249,5 +249,11 @@
     <ClCompile Include="CountingPrimeNumber.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="RollingDice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SumComposition.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
