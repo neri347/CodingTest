@@ -255,5 +255,14 @@
     <ClCompile Include="SumComposition.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NumberGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SumTwoQueue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyCodingTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
