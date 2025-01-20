@@ -291,5 +291,17 @@
     <ClCompile Include="VectorMatching.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HighBuilding.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Nobody.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OrganicCabbage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HideAndSeek.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
