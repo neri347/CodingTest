@@ -1,70 +1,73 @@
+/// p.411 문제33_간단한 유니온-파인드 알고리즘 구현하기
 #include <iostream>
 #include <vector>
 using namespace std;
 
-vector<int> parents;
+vector<int> parent;
 vector<int> ranks;
 
-int Find(int n)
+int Find(int x)
 {
-	if (n == parents[n])
+	if (x != parent[x])
 	{
-		return n;
+		int ret = Find(parent[x]);
+		// 경로 압축
+		parent[x] = ret;
+		return ret;
 	}
-	parents[n] = Find(parents[n]);
-	return parents[n];
+	return x;
 }
 
-void Union(int a, int b)
+void Union(int x, int y)
 {
-	// a와 b의 루트 찾기
-	int root1 = Find(a);
-	int root2 = Find(b);
-	// 루트들의 랭크 비교
-	// 랭크 같으면 앞의 것 랭크로
-	// 랭크 다르면 랭크값 큰 것으로
-	if (root1 != root2)
+	int p1 = Find(x);
+	int p2 = Find(y);
+
+	if (ranks[p1] == ranks[p2])
 	{
-		if (ranks[root1] == ranks[root2])
+		parent[y] = p1;
+		ranks[p1]++;
+	}
+	else
+	{
+		if (ranks[p1] > ranks[p2])
 		{
-			parents[root2] = root1;
-			++ranks[root2];
-		}
-		else if (ranks[root1] > ranks[root2])
-		{
-			parents[root2] = root1;
+			parent[y] = p1;
 		}
 		else
 		{
-			parents[root1] = root2;
+			parent[x] = p2;
 		}
-	}	
+	}
+
 }
 
 vector<bool> solution(int k, vector<vector<char>> operations)
 {
 	vector<bool> answer;
-	for (int i = 0; i < k; i++)
+	parent.resize(k);
+	ranks.resize(k, 0);
+	// 초기 각 노드들의 부모노드는 자기 자신이다.
+	for (int i = 0; i < k; ++i)
 	{
-		parents.push_back(i);
-		ranks.push_back(0);
+		parent[i] = i;
 	}
 
-	for (int i = 0; i < operations.size(); i++)
+	for (int i = 0; i < operations.size(); ++i)
 	{
-		if (operations[i][0] == 'u')
+		char command = operations[i][0];
+		int node1 = operations[i][1] - '0';
+		int node2 = operations[i][2] - '0';
+		if (command == 'u')
 		{
-			int v1 = operations[i][1] - '0';
-			int v2 = operations[i][2] - '0';
-			Union(v1, v2);
+			Union(node1, node2);
 		}
 		else
 		{
-			int v1 = operations[i][1] - '0';
-			int v2 = operations[i][2] - '0';
-			answer.push_back(Find(v1) == Find(v2));
+			answer.push_back(Find(node1) == Find(node2));
 		}
 	}
+
 	return answer;
 }
 
