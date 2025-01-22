@@ -312,5 +312,14 @@
     <ClCompile Include="BuyCards.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="AscendingNumber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeNavigation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tomato.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
