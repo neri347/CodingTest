@@ -148,6 +148,10 @@
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Clothes.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="CuttingTree.cpp">
       <SubType>
       </SubType>
