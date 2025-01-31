@@ -5,54 +5,56 @@
 #include <queue>
 using namespace std;
 
-class Compare
+struct Compare
 {
-public:
 	bool operator()(const pair<int, int>& a, const pair<int, int>& b)
 	{
 		return a.second > b.second;
 	}
 };
+	
 
 // 시작 노드부터 각 노드까지의 최소 비용을 담은 벡터를 반환
 vector<int> solution(int start, int numNodes, vector<tuple<int, int, int>> edges)
 {
 	// 그래프 생성
-	vector<vector<pair<int, int>>> graph(numNodes);
+	vector<vector<pair<int, int>>> adjList(numNodes);
 	for (const auto& [from, to, weight] : edges)
 	{
-		graph[from].push_back({ to, weight });
+		adjList[from].push_back({ to, weight });
 	}
 
 	vector<int> distances(numNodes, INT_MAX);
 	vector<bool> isVisited(numNodes, false);
-	priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> pq;
 	distances[start] = 0;
+	priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> pq;
 	pq.push({ start, 0 });
 
 	while (!pq.empty())
 	{
-		int vertex = pq.top().first;
-		int currentDistance = pq.top().second;
+		int node = pq.top().first;
+		int dist = pq.top().second;
 		pq.pop();
 
-		if (isVisited[vertex])
+		if (isVisited[node])
 		{
 			continue;
 		}
-		isVisited[vertex] = true;
 
-		for (auto& [to, weight] : graph[vertex])
+		isVisited[node] = true;
+
+		// 해당 정점과 연결된 정점 거리 갱신
+		for (const auto& [to, weight] : adjList[node])
 		{
-			int newWeight = distances[vertex] + weight;
-			if (distances[to] > newWeight)
+			// 해당 정점을 거쳐 연결된 정점으로 가는 거리 계산
+			int nd = dist + weight;
+			if (nd < distances[to])
 			{
-				distances[to] = newWeight;
-				pq.push({ to, newWeight });
+				distances[to] = nd;
+				pq.push({ to, nd });
 			}
 		}
 	}
-
 	return distances;
 }
 
