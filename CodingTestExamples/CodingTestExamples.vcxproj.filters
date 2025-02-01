@@ -360,5 +360,11 @@
     <ClCompile Include="Clothes.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="H-Index.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
