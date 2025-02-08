@@ -399,5 +399,8 @@
     <ClCompile Include="2048(Easy).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="FindCodes.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
