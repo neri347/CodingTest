@@ -1,6 +1,5 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+/// ¾ç°ú ´Á´ë
+/// https://school.programmers.co.kr/learn/courses/30/lessons/92343
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -64,6 +63,7 @@ int solution(vector<int> info, vector<vector<int>> edges) {
 
 	return maxSheep;
 }
+
 int main()
 {
 
