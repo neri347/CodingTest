@@ -136,7 +136,7 @@
     <ClCompile Include="FindCodes.cpp">
       <SubType>
       </SubType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Downhill.cpp">
       <SubType>
@@ -151,6 +151,7 @@
     <ClCompile Include="IncreaseServer.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="MinHeap.cpp">
       <SubType>
@@ -566,6 +567,10 @@
       <SubType>
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ProcessTree.cpp">
+      <SubType>
+      </SubType>
     </ClCompile>
     <ClCompile Include="QuitCompany.cpp">
       <SubType>
