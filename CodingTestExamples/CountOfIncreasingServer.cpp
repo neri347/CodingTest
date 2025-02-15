@@ -1,5 +1,5 @@
-/// 서버 증설
-/// https://www.notion.so/1987be4a6cac807a970bd0353da410c7
+/// 서버 증설 횟수
+/// https://school.programmers.co.kr/learn/courses/30/lessons/389479
 #include <iostream>
 #include <vector>
 #include <queue>

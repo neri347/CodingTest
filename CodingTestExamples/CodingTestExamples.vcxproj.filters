@@ -411,7 +411,7 @@
     <ClCompile Include="GreedyPanda.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="IncreaseServer.cpp">
+    <ClCompile Include="CountOfIncreasingServer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HoljjakTree.cpp">
