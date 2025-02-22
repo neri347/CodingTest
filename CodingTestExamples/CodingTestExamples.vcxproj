@@ -146,6 +146,7 @@
     <ClCompile Include="ExpressibleBinaryTree.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Iceberg.cpp">
       <SubType>
