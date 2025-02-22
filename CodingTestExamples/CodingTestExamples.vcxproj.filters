@@ -447,5 +447,8 @@
     <ClCompile Include="ValueOfBracket.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ExpressibleBinaryTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
