@@ -456,5 +456,14 @@
     <ClCompile Include="GoDown.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Surveillance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProctor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StartAndLink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
