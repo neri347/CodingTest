@@ -465,5 +465,8 @@
     <ClCompile Include="StartAndLink.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="IncreaseNumber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
