@@ -468,5 +468,11 @@
     <ClCompile Include="IncreaseNumber.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Slope.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Gear.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
