@@ -477,5 +477,8 @@
     <ClCompile Include="LadderManipulation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DragonCurve.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
