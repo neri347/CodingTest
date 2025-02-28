@@ -492,5 +492,8 @@
     <ClCompile Include="TreeInvestment.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DetermineHikingCourse.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
