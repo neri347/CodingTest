@@ -26,7 +26,7 @@ void Union(int x, int y)
         if (ranks[root1] == ranks[root2])
         {
             parents[root2] = root1;
-            ++ranks[root2];
+            ++ranks[root1];
         }
         else
         {

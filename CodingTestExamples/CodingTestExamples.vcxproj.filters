@@ -513,5 +513,11 @@
     <ClCompile Include="Gerrymandering2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MakeBiggestNumber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
