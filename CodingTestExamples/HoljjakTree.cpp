@@ -117,7 +117,7 @@ vector<int> solution(vector<int> nodes, vector<vector<int>> edges) {
 
 int main()
 {
-	vector<int> nodes = { 11, 9, 6, 2, 4, 3 };
+	vector<int> nodes = { 2, 6, 4, 3, 11, 9 };
 	vector <vector<int>> edges = { {9, 11} ,{2, 3},{6, 3},{3, 4} };
 	for (int e : solution(nodes, edges))
 	{
