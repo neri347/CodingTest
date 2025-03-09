@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+
 using namespace std;
 
 struct Piece
@@ -16,8 +17,8 @@ struct Piece
 int N, K;
 int dx[4] = { 0, 0, -1, 1 };
 int dy[4] = { 1, -1, 0, 0 };
-int board[12][12]; // 0 Èò»ö, 1 »¡°£»ö, 2 ÆÄ¶õ»ö
-vector<int> piecesOnBoard[12][12];
+int board[13][13]; // 0 Èò»ö, 1 »¡°£»ö, 2 ÆÄ¶õ»ö
+vector<int> piecesOnBoard[13][13];
 map<int, Piece> pieces;
 
 int GetOppositeDir(int dir)
@@ -154,7 +155,7 @@ int main()
 			int ny = y + dy[dir];
 
 			vector<int> movePieces;
-			int index = 0;
+			int index = -1;
 			for (int j = 0; j < piecesOnBoard[x][y].size(); j++)
 			{
 				if (piecesOnBoard[x][y][j] == num)
@@ -203,5 +204,6 @@ int main()
 		}
 	}
 	cout << answer;
+
 	return 0;
 }
