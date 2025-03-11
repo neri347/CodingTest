@@ -537,5 +537,14 @@
     <ClCompile Include="SpinDisc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="AC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FindTreeParent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Change.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
