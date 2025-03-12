@@ -1,553 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="?†Œ?Š¤ ?ŒŒ?¼">
+    <Filter Include="?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="?—¤?” ?ŒŒ?¼">
+    <Filter Include="?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="ë¦¬ì†Œ?Š¤ ?ŒŒ?¼">
+    <Filter Include="ë¦¬ì†Œ?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bellman-FordAlgorithm.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BinarySearchTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CountNetwork_UnionFindAlgo.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GiftCount.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimunSpanningTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SumCombinations.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="TreeTraversal.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Union-FindAlgorithm.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="FoldBill.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="VideoPlayer.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MaxMatSize.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionPossiblity.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Sequences_ver1.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CountSort.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MeetingRoomAssignment.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeSort.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SortingString.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GroundMoving.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Tuple.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BiggestNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="KthNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SortIntDescend.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RotateArray.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SnailArray.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="TransformBinary.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Carpet.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CuttingRollcake.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="JumpAndTeleport.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LCSLength.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LISLength.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LocatePebbles.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LocationOfCharacter.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DeliverySugar.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Tiling_2xn.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SequenceNumberSum.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ClimbStairs.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="IntegerTriangle.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayHopscotch.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="FindBiggestSquare.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GivingChange.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="FractionKnapsackProblem.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="NormalKnapsack.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PrivacyExpiration.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PickingDoll.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="EscapeMazeOrder.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DeliveryAndPickup.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CountQuadTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Move110.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RGBStreet.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MakeToOne.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="EasyStairNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BitonicSequence.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="WineTasting.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="AlarmClock.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Average.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Josephus.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Laboratory.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RobotCleaner.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="QuitCompany.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ChickenDelivery.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Tetromino.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LCS_Baekjoon.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseTransform.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Snake.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PinaryNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Coin1.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GameDevelop.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BabyShark.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Coin2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BestAlbam.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MovePeople.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ApartmentLeader.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LIS_Baekjoon.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ElectricWire.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BadUser.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckKeepingDistance.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CountingPrimeNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RollingDice.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SumComposition.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberGame.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SumTwoQueue.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyCodingTest.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ReceiveReportResult.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PartialSectionSum4.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Sequence.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PartialSectionSum5.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberCard2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CuttingWire.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Good.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RenewalMenu.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="VectorMatching.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="HighBuilding.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Nobody.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="OrganicCabbage.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="HideAndSeek.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ShortestPath.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="InsertOperator.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BuyCards.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="AscendingNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MazeNavigation.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Tomato.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Bracket.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Virus.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DFSAndBFS.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DonutAndStickGraph.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MostReceivedGift.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ACMCraft.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RaiderChoragi.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CuttingTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Tomato2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Zoo.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LISSum.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MovePipe1.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Clothes.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Process.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="H-Index.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="TimeMachine.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DiskController.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DoublePriorityQueue.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="EscapeMaze.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ChooseDice.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MinHeap.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Red-GreenBlindness.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RepeatBinaryConversion.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ReverseBaseThree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Downhill.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="2048(Easy).cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CodeDecryption.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="N+1CardGame.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SheepAndWolf.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GreedyPanda.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CountOfIncreasingServer.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="HoljjakTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PerfectCrime.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="PuzzleGameChallenge.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="OilDrilling.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SealedSpell.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="EmoticonSaleEvent.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="RestoreExpressions.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="BeadEscape2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MoveWagon.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Iceberg.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ValueOfBracket.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ExpressibleBinaryTree.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeTable.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="GoDown.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Surveillance.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="TestProctor.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="StartAndLink.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="IncreaseNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Slope.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Gear.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="LadderManipulation.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DragonCurve.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Goobye, FineDust.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="2DArrayAndOperation.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Laboratory3.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="TreeInvestment.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DetermineHikingCourse.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="UndestroyedBuildings.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="CalculateParkingFee.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="ArcheryCompetition.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="DisappearingBoard.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="FishingKing.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Gerrymandering2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="MakeBiggestNumber.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Joystick.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Lighthouse.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SearchRank.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="AtoB.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="NewGame2.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="HideAndSeek3.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="SpinDisc.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Immigration.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="AC.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="FindTreeParent.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
-    <ClCompile Include="Change.cpp">
-      <Filter>?†Œ?Š¤ ?ŒŒ?¼</Filter>
-    </ClCompile>
+    <ClCompile Include="2048(Easy).cpp" />
+    <ClCompile Include="2DArrayAndOperation.cpp" />
+    <ClCompile Include="AC.cpp" />
+    <ClCompile Include="ArcheryCompetition.cpp" />
+    <ClCompile Include="AtoB.cpp" />
+    <ClCompile Include="BeadEscape2.cpp" />
+    <ClCompile Include="CalculateParkingFee.cpp" />
+    <ClCompile Include="Change.cpp" />
+    <ClCompile Include="DetermineHikingCourse.cpp" />
+    <ClCompile Include="DisappearingBoard.cpp" />
+    <ClCompile Include="DragonCurve.cpp" />
+    <ClCompile Include="EmoticonSaleEvent.cpp" />
+    <ClCompile Include="ExpressibleBinaryTree.cpp" />
+    <ClCompile Include="FindTreeParent.cpp" />
+    <ClCompile Include="FishingKing.cpp" />
+    <ClCompile Include="Gerrymandering2.cpp" />
+    <ClCompile Include="Goobye, FineDust.cpp" />
+    <ClCompile Include="Gear.cpp" />
+    <ClCompile Include="GoDown.cpp" />
+    <ClCompile Include="HideAndSeek3.cpp" />
+    <ClCompile Include="Iceberg.cpp" />
+    <ClCompile Include="Immigration.cpp" />
+    <ClCompile Include="IncreaseNumber.cpp" />
+    <ClCompile Include="Joystick.cpp" />
+    <ClCompile Include="Laboratory3.cpp" />
+    <ClCompile Include="LadderManipulation.cpp" />
+    <ClCompile Include="Lighthouse.cpp" />
+    <ClCompile Include="MakeBiggestNumber.cpp" />
+    <ClCompile Include="MergeTable.cpp" />
+    <ClCompile Include="MoveWagon.cpp" />
+    <ClCompile Include="NewGame2.cpp" />
+    <ClCompile Include="RestoreExpressions.cpp" />
+    <ClCompile Include="SealedSpell.cpp" />
+    <ClCompile Include="CodeDecryption.cpp" />
+    <ClCompile Include="Downhill.cpp" />
+    <ClCompile Include="GreedyPanda.cpp" />
+    <ClCompile Include="HoljjakTree.cpp" />
+    <ClCompile Include="CountOfIncreasingServer.cpp" />
+    <ClCompile Include="MinHeap.cpp" />
+    <ClCompile Include="ChooseDice.cpp" />
+    <ClCompile Include="DiskController.cpp" />
+    <ClCompile Include="DoublePriorityQueue.cpp" />
+    <ClCompile Include="EscapeMaze.cpp" />
+    <ClCompile Include="H-Index.cpp" />
+    <ClCompile Include="N+1CardGame.cpp" />
+    <ClCompile Include="OilDrilling.cpp" />
+    <ClCompile Include="PerfectCrime.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="ACMCraft.cpp" />
+    <ClCompile Include="AscendingNumber.cpp" />
+    <ClCompile Include="Bracket.cpp" />
+    <ClCompile Include="BuyCards.cpp" />
+    <ClCompile Include="Clothes.cpp" />
+    <ClCompile Include="CuttingTree.cpp" />
+    <ClCompile Include="DFSAndBFS.cpp" />
+    <ClCompile Include="DonutAndStickGraph.cpp" />
+    <ClCompile Include="HideAndSeek.cpp" />
+    <ClCompile Include="HighBuilding.cpp" />
+    <ClCompile Include="CuttingWire.cpp" />
+    <ClCompile Include="Good.cpp" />
+    <ClCompile Include="InsertOperator.cpp" />
+    <ClCompile Include="LISSum.cpp" />
+    <ClCompile Include="MazeNavigation.cpp" />
+    <ClCompile Include="MostReceivedGift.cpp" />
+    <ClCompile Include="MovePipe1.cpp" />
+    <ClCompile Include="Nobody.cpp" />
+    <ClCompile Include="NumberCard2.cpp" />
+    <ClCompile Include="OrganicCabbage.cpp" />
+    <ClCompile Include="PartialSectionSum4.cpp" />
+    <ClCompile Include="AlarmClock.cpp" />
+    <ClCompile Include="ApartmentLeader.cpp" />
+    <ClCompile Include="Average.cpp" />
+    <ClCompile Include="BabyShark.cpp" />
+    <ClCompile Include="Bellman-FordAlgorithm.cpp" />
+    <ClCompile Include="BestAlbam.cpp" />
+    <ClCompile Include="BiggestNumber.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
+    <ClCompile Include="BitonicSequence.cpp" />
+    <ClCompile Include="Carpet.cpp" />
+    <ClCompile Include="ClimbStairs.cpp" />
+    <ClCompile Include="Coin1.cpp" />
+    <ClCompile Include="Coin2.cpp" />
+    <ClCompile Include="CollisionPossiblity.cpp" />
+    <ClCompile Include="CountingPrimeNumber.cpp" />
+    <ClCompile Include="CountNetwork_UnionFindAlgo.cpp" />
+    <ClCompile Include="CountQuadTree.cpp" />
+    <ClCompile Include="CuttingRollcake.cpp" />
+    <ClCompile Include="DeliveryAndPickup.cpp" />
+    <ClCompile Include="DeliverySugar.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="EasyStairNumber.cpp" />
+    <ClCompile Include="ElectricWire.cpp" />
+    <ClCompile Include="EscapeMazeOrder.cpp" />
+    <ClCompile Include="FindBiggestSquare.cpp" />
+    <ClCompile Include="FoldBill.cpp" />
+    <ClCompile Include="FractionKnapsackProblem.cpp" />
+    <ClCompile Include="ChickenDelivery.cpp" />
+    <ClCompile Include="GameDevelop.cpp" />
+    <ClCompile Include="GiftCount.cpp" />
+    <ClCompile Include="CountSort.cpp" />
+    <ClCompile Include="GivingChange.cpp" />
+    <ClCompile Include="GroundMoving.cpp" />
+    <ClCompile Include="IntegerTriangle.cpp" />
+    <ClCompile Include="Josephus.cpp" />
+    <ClCompile Include="JumpAndTeleport.cpp" />
+    <ClCompile Include="KthNumber.cpp" />
+    <ClCompile Include="Laboratory.cpp" />
+    <ClCompile Include="LCSLength.cpp" />
+    <ClCompile Include="LCS_Baekjoon.cpp" />
+    <ClCompile Include="LISLength.cpp" />
+    <ClCompile Include="LIS_Baekjoon.cpp" />
+    <ClCompile Include="LocatePebbles.cpp" />
+    <ClCompile Include="LocationOfCharacter.cpp" />
+    <ClCompile Include="MakeToOne.cpp" />
+    <ClCompile Include="MaxMatSize.cpp" />
+    <ClCompile Include="MeetingRoomAssignment.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="MinimunSpanningTree.cpp" />
+    <ClCompile Include="Move110.cpp" />
+    <ClCompile Include="NormalKnapsack.cpp" />
+    <ClCompile Include="PartialSectionSum5.cpp" />
+    <ClCompile Include="PickingDoll.cpp" />
+    <ClCompile Include="PinaryNumber.cpp" />
+    <ClCompile Include="PlayHopscotch.cpp" />
+    <ClCompile Include="PrivacyExpiration.cpp" />
+    <ClCompile Include="PuzzleGameChallenge.cpp" />
+    <ClCompile Include="QuitCompany.cpp" />
+    <ClCompile Include="RaiderChoragi.cpp" />
+    <ClCompile Include="Red-GreenBlindness.cpp" />
+    <ClCompile Include="RenewalMenu.cpp" />
+    <ClCompile Include="RepeatBinaryConversion.cpp" />
+    <ClCompile Include="ReverseBaseThree.cpp" />
+    <ClCompile Include="RGBStreet.cpp" />
+    <ClCompile Include="RobotCleaner.cpp" />
+    <ClCompile Include="RollingDice.cpp" />
+    <ClCompile Include="RotateArray.cpp" />
+    <ClCompile Include="SearchRank.cpp" />
+    <ClCompile Include="Sequence.cpp" />
+    <ClCompile Include="SequenceNumberSum.cpp" />
+    <ClCompile Include="Sequences_ver1.cpp" />
+    <ClCompile Include="SheepAndWolf.cpp" />
+    <ClCompile Include="ShortestPath.cpp" />
+    <ClCompile Include="Slope.cpp" />
+    <ClCompile Include="SnailArray.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="SortIntDescend.cpp" />
+    <ClCompile Include="SortingString.cpp" />
+    <ClCompile Include="SpinDisc.cpp" />
+    <ClCompile Include="StartAndLink.cpp" />
+    <ClCompile Include="StudyCodingTest.cpp" />
+    <ClCompile Include="SumCombinations.cpp" />
+    <ClCompile Include="BaseTransform.cpp" />
+    <ClCompile Include="MovePeople.cpp" />
+    <ClCompile Include="BadUser.cpp" />
+    <ClCompile Include="CheckKeepingDistance.cpp" />
+    <ClCompile Include="SumComposition.cpp" />
+    <ClCompile Include="NumberGame.cpp" />
+    <ClCompile Include="SumTwoQueue.cpp" />
+    <ClCompile Include="Surveillance.cpp" />
+    <ClCompile Include="TestProctor.cpp" />
+    <ClCompile Include="Tetromino.cpp" />
+    <ClCompile Include="Tiling_2xn.cpp" />
+    <ClCompile Include="TimeMachine.cpp" />
+    <ClCompile Include="Tomato.cpp" />
+    <ClCompile Include="Tomato2.cpp" />
+    <ClCompile Include="TransformBinary.cpp" />
+    <ClCompile Include="TreeInvestment.cpp" />
+    <ClCompile Include="TreeTraversal.cpp" />
+    <ClCompile Include="Tuple.cpp" />
+    <ClCompile Include="UndestroyedBuildings.cpp" />
+    <ClCompile Include="Union-FindAlgorithm.cpp" />
+    <ClCompile Include="ValueOfBracket.cpp" />
+    <ClCompile Include="VectorMatching.cpp" />
+    <ClCompile Include="VideoPlayer.cpp" />
+    <ClCompile Include="Virus.cpp" />
+    <ClCompile Include="WineTasting.cpp" />
+    <ClCompile Include="ReceiveReportResult.cpp" />
+    <ClCompile Include="Zoo.cpp" />
+    <ClCompile Include="IOIOI.cpp" />
+    <ClCompile Include="PopBallons.cpp" />
   </ItemGroup>
 </Project>
