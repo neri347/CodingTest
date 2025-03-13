@@ -195,5 +195,6 @@
     <ClCompile Include="Zoo.cpp" />
     <ClCompile Include="IOIOI.cpp" />
     <ClCompile Include="PopBallons.cpp" />
+    <ClCompile Include="DiceYutGame.cpp" />
   </ItemGroup>
 </Project>
