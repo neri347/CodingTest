@@ -195,5 +195,7 @@
     <ClCompile Include="IOIOI.cpp" />
     <ClCompile Include="PopBallons.cpp" />
     <ClCompile Include="LongestBitonicSequence.cpp" />
+    <ClCompile Include="DiceYutGame.cpp" />
+    <ClCompile Include="Floyd.cpp" />
   </ItemGroup>
 </Project>
