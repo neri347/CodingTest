@@ -92,7 +92,6 @@
     <ClCompile Include="BestAlbam.cpp" />
     <ClCompile Include="BiggestNumber.cpp" />
     <ClCompile Include="BinarySearchTree.cpp" />
-    <ClCompile Include="BitonicSequence.cpp" />
     <ClCompile Include="Carpet.cpp" />
     <ClCompile Include="ClimbStairs.cpp" />
     <ClCompile Include="Coin1.cpp" />
@@ -195,5 +194,6 @@
     <ClCompile Include="Zoo.cpp" />
     <ClCompile Include="IOIOI.cpp" />
     <ClCompile Include="PopBallons.cpp" />
+    <ClCompile Include="LongestBitonicSequence.cpp" />
   </ItemGroup>
 </Project>
