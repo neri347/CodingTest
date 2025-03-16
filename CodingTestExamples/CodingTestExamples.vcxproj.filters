@@ -197,5 +197,6 @@
     <ClCompile Include="LongestBitonicSequence.cpp" />
     <ClCompile Include="DiceYutGame.cpp" />
     <ClCompile Include="Floyd.cpp" />
+    <ClCompile Include="StartTaxi.cpp" />
   </ItemGroup>
 </Project>
