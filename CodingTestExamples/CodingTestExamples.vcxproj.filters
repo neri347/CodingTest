@@ -198,5 +198,7 @@
     <ClCompile Include="DiceYutGame.cpp" />
     <ClCompile Include="Floyd.cpp" />
     <ClCompile Include="StartTaxi.cpp" />
+    <ClCompile Include="MineCraft.cpp" />
+    <ClCompile Include="NAndM(12).cpp" />
   </ItemGroup>
 </Project>
