@@ -200,5 +200,8 @@
     <ClCompile Include="StartTaxi.cpp" />
     <ClCompile Include="MineCraft.cpp" />
     <ClCompile Include="NAndM(12).cpp" />
+    <ClCompile Include="MovingGoldAndSilver.cpp" />
+    <ClCompile Include="BreakWallAndMove.cpp" />
+    <ClCompile Include="Rank.cpp" />
   </ItemGroup>
 </Project>
