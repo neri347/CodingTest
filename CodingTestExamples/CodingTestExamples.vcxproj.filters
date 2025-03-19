@@ -203,5 +203,7 @@
     <ClCompile Include="MovingGoldAndSilver.cpp" />
     <ClCompile Include="BreakWallAndMove.cpp" />
     <ClCompile Include="Rank.cpp" />
+    <ClCompile Include="DiameterOfTree.cpp" />
+    <ClCompile Include="SharedTaxiFee.cpp" />
   </ItemGroup>
 </Project>
