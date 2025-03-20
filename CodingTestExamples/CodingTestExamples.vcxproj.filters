@@ -205,5 +205,6 @@
     <ClCompile Include="Rank.cpp" />
     <ClCompile Include="DiameterOfTree.cpp" />
     <ClCompile Include="SharedTaxiFee.cpp" />
+    <ClCompile Include="SpecifyShortestPath.cpp" />
   </ItemGroup>
 </Project>
