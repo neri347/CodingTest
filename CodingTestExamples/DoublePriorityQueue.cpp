@@ -1,5 +1,7 @@
-/// 이중우선순위큐
+/// 이중 우선순위 큐
+/// https://www.acmicpc.net/problem/7662
 /// https://school.programmers.co.kr/learn/courses/30/lessons/42628
+#include <iostream>
 #include <string>
 #include <vector>
 #include <set>
@@ -7,51 +9,53 @@
 
 using namespace std;
 
-vector<int> solution(vector<string> operations) {
-	multiset<int> ms;
+int main()
+{
+	int T;
+	cin >> T;
 
-	for (auto& str : operations)
+	for (int t = 0; t < T; t++)
 	{
-		stringstream ss(str);
-		string command, num;
-		ss >> command >> num;
+		int N;
+		cin >> N;
+		multiset<int> ms;
+		for (int i = 0; i < N; i++)
+		{
+			char ch;
+			cin >> ch;
+			int num;
+			cin >> num;
 
-		if (command == "I")
-		{
-			int n = stoi(num);
-			ms.insert(n);
-		}
-		else
-		{
-			if (num == "1")
+			if (ch == 'I')
 			{
-				if (!ms.empty())
-				{
-					// 최대값 삭제
-					ms.erase(--ms.end());
-				}
+				ms.insert(num);
 			}
 			else
 			{
-				if (!ms.empty())
+				if (ms.empty())
 				{
-					// 최소값 삭제
+					continue;
+				}
+
+				if (num == 1) // 최대값 삭제
+				{
+					ms.erase(--ms.end());
+				}
+				else // 최소값 삭제
+				{
 					ms.erase(ms.begin());
 				}
 			}
 		}
+		if (ms.empty())
+		{
+			cout << "EMPTY\n";
+		}
+		else
+		{
+			cout << *(--ms.end()) << ' ' << *ms.begin() << '\n';
+		}
 	}
-
-	if (ms.empty())
-	{
-		return { 0, 0 };
-	}
-
-	return { *(--ms.end()), *ms.begin() };
-}
-
-int main()
-{
 
 	return 0;
 }

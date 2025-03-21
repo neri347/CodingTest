@@ -206,5 +206,7 @@
     <ClCompile Include="DiameterOfTree.cpp" />
     <ClCompile Include="SharedTaxiFee.cpp" />
     <ClCompile Include="SpecifyShortestPath.cpp" />
+    <ClCompile Include="ExpressionOfSet.cpp" />
+    <ClCompile Include="DanceDanceRevolution.cpp" />
   </ItemGroup>
 </Project>
