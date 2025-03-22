@@ -10,35 +10,31 @@ int main()
 	// 입력
 	int N, K;
 	cin >> N >> K;
-	vector<vector<int>> items;
-	for (int i = 0; i < N; ++i)
+	vector<pair<int, int>> items; // weight, value
+	for (int i = 0; i < N; i++)
 	{
-		int W, V;
-		cin >> W >> V;
-		items.push_back({ W, V });
+		int w, v;
+		cin >> w >> v;
+		items.push_back({ w, v });
 	}
 
-	// 풀이
-	// dp[i][j] = dp[i-1][j] (W > K)
-	//			or max(dp[i-1][j], items[i][1] + dp[i-1][K-W])
-	vector<vector<int>> dp(N+1, vector<int>(K+1, 0));
-	
-	for (int i = 1; i <= N; ++i) // 짐 한개한개
+	vector<vector<int>> dp(N + 1, vector<int>(K + 1, 0));
+	for (int i = 1; i <= N; i++)
 	{
-		for (int j = 1; j <= K; ++j) // 가방한계를 1씩 늘려가면서 검사
+		int weight = items[i - 1].first;
+		int value = items[i - 1].second;
+		for (int j = 1; j <= K; j++)
 		{
-			int weight = items[i-1][0];
 			if (weight <= j)
 			{
-				dp[i][j] = max(dp[i - 1][j], items[i-1][1] + dp[i - 1][j - weight]);
+				dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight] + value);
 			}
-			else // 현재 짐이 가방한계보다 무겁다면 못 넣는다
+			else
 			{
 				dp[i][j] = dp[i - 1][j];
 			}
 		}
 	}
-
 	cout << dp[N][K];
 	return 0;
 }
