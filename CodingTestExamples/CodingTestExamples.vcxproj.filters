@@ -208,5 +208,6 @@
     <ClCompile Include="SpecifyShortestPath.cpp" />
     <ClCompile Include="ExpressionOfSet.cpp" />
     <ClCompile Include="DanceDanceRevolution.cpp" />
+    <ClCompile Include="MakeColorPaper.cpp" />
   </ItemGroup>
 </Project>
