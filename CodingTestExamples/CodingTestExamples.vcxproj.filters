@@ -209,5 +209,6 @@
     <ClCompile Include="ExpressionOfSet.cpp" />
     <ClCompile Include="DanceDanceRevolution.cpp" />
     <ClCompile Include="MakeColorPaper.cpp" />
+    <ClCompile Include="GetMinimalCost.cpp" />
   </ItemGroup>
 </Project>

@@ -2,65 +2,59 @@
 /// https://school.programmers.co.kr/learn/courses/30/lessons/86053
 #include <string>
 #include <vector>
-#include <limits.h>
-#include <cmath>
 #include <algorithm>
 
 using namespace std;
 
-//long long solution(int a, int b, vector<int> g, vector<int> s, vector<int> w, vector<int> t) {
-//    long long answer = -1;
-//
-//    long long left = 0;
-//    long long right = 4 * 10e14 + 10e5;
-//
-//
-//
-//    return answer;
-//}
-
-bool Search(int a, int b, vector<int> g, vector<int> s, vector<int> w, vector<int> t, long long Mid)
+bool Move(int a, int b, const vector<int>& g, const vector<int>& s, const vector<int>& w, const vector<int>& t, long long time)
 {
-	long long Total_Gold = 0;
-	long long Total_Silver = 0;
-	long long Total_Mineral = 0;
+    long long gold = 0;
+    long long silver = 0;
+    long long total = 0;
 
-	for (int i = 0; i < g.size(); i++)
-	{
-		long long Time = t[i];
+    for (int i = 0; i < w.size(); i++)
+    {
+        long long roundTime = (long long)t[i] * 2;
+        long long moveCount = time / roundTime;
+        // 왕복한 후에 t[i]이상 시간이 남으면 광물 한번 더 가져다놓을 수 있음
+        if (time % roundTime >= t[i]) ++moveCount;
+        long long take = w[i] * moveCount; // 시간내로 가져다놓을 수 있는 양
 
-		long long Round_Time = Time * 2;
-		long long Move_Cnt = Mid / Round_Time;
-		if (Mid % Round_Time >= Time) Move_Cnt++;
-		long long Max_Take = w[i] * Move_Cnt;
+        // 가지고갈 수 있는 광물의 총 양은 도시에 있는 광물 총 양만큼이다.
+        gold += min((long long)g[i], take);
+        silver += min((long long)s[i], take);
+        total += min((long long)g[i] + s[i], take);
+    }
 
-		Total_Gold += min((long long)g[i], Max_Take);
-		Total_Silver += min((long long)s[i], Max_Take);
-		Total_Mineral += min((long long)g[i] + s[i], Max_Take);
-	}
-
-	if (Total_Gold >= a && Total_Silver >= b && Total_Mineral >= a + b) return true;
-	return false;
+    if (gold >= a && silver >= b && total >= a + b)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
-long long solution(int a, int b, vector<int> g, vector<int> s, vector<int> w, vector<int> t)
-{
-	long long answer = -1;
-	long long Start = 0;
-	long long End = 10e14 * 3;
-	answer = End;
-	while (Start <= End)
-	{
-		long long Mid = (Start + End) / 2;
-		if (Search(a, b, g, s, w, t, Mid) == true)
-		{
-			answer = min(answer, Mid);
-			End = Mid - 1;
-		}
-		else Start = Mid + 1;
-	}
-
-	return answer;
+long long solution(int a, int b, vector<int> g, vector<int> s, vector<int> w, vector<int> t) {
+    long long answer = -1;
+    long long left = 1;
+    long long right = 1e14 * 4;
+    answer = right;
+    while (left <= right)
+    {
+        long long mid = (left + right) / 2;
+        if (Move(a, b, g, s, w, t, mid))
+        {
+            answer = mid;
+            right = mid - 1;
+        }
+        else
+        {
+            left = mid + 1;
+        }
+    }
+    return answer;
 }
 
 int main()
