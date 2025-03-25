@@ -210,5 +210,7 @@
     <ClCompile Include="DanceDanceRevolution.cpp" />
     <ClCompile Include="MakeColorPaper.cpp" />
     <ClCompile Include="GetMinimalCost.cpp" />
+    <ClCompile Include="CountOfConnectedComponent.cpp" />
+    <ClCompile Include="Lie.cpp" />
   </ItemGroup>
 </Project>
