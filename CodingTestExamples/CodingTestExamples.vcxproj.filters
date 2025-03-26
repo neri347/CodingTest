@@ -212,5 +212,7 @@
     <ClCompile Include="GetMinimalCost.cpp" />
     <ClCompile Include="CountOfConnectedComponent.cpp" />
     <ClCompile Include="Lie.cpp" />
+    <ClCompile Include="LockAndKey.cpp" />
+    <ClCompile Include="GetMinimalCost2.cpp" />
   </ItemGroup>
 </Project>
