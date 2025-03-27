@@ -1,42 +1,33 @@
 /// 구간 합 구하기 5
 /// https://www.acmicpc.net/problem/11660
-#include <iostream>
+#include <stdio.h>
 #include <vector>
 using namespace std;
 
 int main()
 {
 	int N, M;
-	cin >> N >> M;
-	vector<vector<int>> sums(N + 1, vector<int>(N + 1, 0)); // 그 줄의 합계
-	for (int i = 1; i <= N; ++i)
+	scanf("%d %d", &N, &M);
+	
+	vector<vector<int>> dp(N + 1, vector<int>(N + 1, 0));
+	for (int i = 1; i <= N; i++)
 	{
-		int sum = 0;
-		for (int j = 1; j <= N; ++j)
+		int sum = 0; // i번째 줄 숫자 합계
+		for (int j = 1; j <= N; j++)
 		{
 			int num;
-			cin >> num;
+			scanf("%d", &num);
 			sum += num;
-			sums[i][j] = sum;
+			dp[i][j] = dp[i - 1][j] + sum;
 		}
 	}
 
-	vector<int> answer;
-	for (int i = 0; i < M; ++i)
+	for (int i = 0; i < M; i++)
 	{
 		int x1, y1, x2, y2;
-		cin >> x1 >> y1 >> x2 >> y2;
-		int s = 0;
-		for (int h = x1; h <= x2; ++h)
-		{
-			s += sums[h][y2] - sums[h][y1-1];
-		}
-		answer.push_back(s);
-	}
-
-	for (int i = 0; i < answer.size(); ++i)
-	{
-		cout << answer[i] << "\n";
+		scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+		int value = dp[x2][y2] - dp[x1 - 1][y2] - dp[x2][y1 - 1] + dp[x1 - 1][y1 - 1];
+		printf("%d\n", value);
 	}
 
 	return 0;
