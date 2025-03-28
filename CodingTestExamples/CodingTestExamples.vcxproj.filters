@@ -214,5 +214,7 @@
     <ClCompile Include="Lie.cpp" />
     <ClCompile Include="LockAndKey.cpp" />
     <ClCompile Include="GetMinimalCost2.cpp" />
+    <ClCompile Include="DiameterOfTree(2).cpp" />
+    <ClCompile Include="Z.cpp" />
   </ItemGroup>
 </Project>
