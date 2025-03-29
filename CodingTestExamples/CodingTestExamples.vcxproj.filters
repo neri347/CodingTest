@@ -216,5 +216,6 @@
     <ClCompile Include="GetMinimalCost2.cpp" />
     <ClCompile Include="DiameterOfTree(2).cpp" />
     <ClCompile Include="Z.cpp" />
+    <ClCompile Include="GemShopping.cpp" />
   </ItemGroup>
 </Project>
