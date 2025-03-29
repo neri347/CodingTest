@@ -217,5 +217,6 @@
     <ClCompile Include="DiameterOfTree(2).cpp" />
     <ClCompile Include="Z.cpp" />
     <ClCompile Include="GemShopping.cpp" />
+    <ClCompile Include="HideAndSeek2.cpp" />
   </ItemGroup>
 </Project>
