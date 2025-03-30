@@ -218,5 +218,9 @@
     <ClCompile Include="Z.cpp" />
     <ClCompile Include="GemShopping.cpp" />
     <ClCompile Include="HideAndSeek2.cpp" />
+    <ClCompile Include="Password.cpp" />
+    <ClCompile Include="StableSection.cpp" />
+    <ClCompile Include="TeenagerShark.cpp" />
+    <ClCompile Include="RobotsOnConveyorBelt.cpp" />
   </ItemGroup>
 </Project>
