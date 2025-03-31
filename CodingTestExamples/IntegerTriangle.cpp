@@ -11,33 +11,30 @@ int main()
 	// 입력
 	int n;
 	cin >> n;
-	vector<vector<int>> numbers(n, vector<int>(n, 0));
-	for (int i = 0; i < n; ++i)
+	vector<vector<int>> vec(n, vector<int>(n, 0));
+	for (int i = 0; i < n; i++)
 	{
-		for (int j = 0; j <= i; ++j)
+		for (int j = 0; j <= i; j++)
 		{
-			int num;
-			cin >> num;
-			numbers[i][j] = num;
+			int v;
+			cin >> v;
+			vec[i][j] = v;
 		}
 	}
 
-	// 풀이
-	// 거꾸로 올라가면서 계산
+	// 밑에 줄부터 올라가면서 대각선 요소 탐색
 	vector<vector<int>> dp(n, vector<int>(n, 0));
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < n; i++)
 	{
-		dp[n - 1][i] = numbers[n - 1][i];
+		dp[n - 1][i] = vec[n - 1][i];
 	}
-
-	for (int i = n - 2; i >= 0; --i)
+	for (int i = n - 2; i >= 0; i--)
 	{
-		for (int j = 0; j <= i; ++j)
+		for (int j = 0; j <= i; j++)
 		{
-			dp[i][j] = max(dp[i + 1][j], dp[i + 1][j + 1]) + numbers[i][j];
+			dp[i][j] = max(dp[i + 1][j], dp[i + 1][j + 1]) + vec[i][j];
 		}
 	}
-
 	cout << dp[0][0];
 	return 0;
 }
