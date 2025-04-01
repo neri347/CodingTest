@@ -223,5 +223,7 @@
     <ClCompile Include="TeenagerShark.cpp" />
     <ClCompile Include="RobotsOnConveyorBelt.cpp" />
     <ClCompile Include="SugarDelivery.cpp" />
+    <ClCompile Include="PartialSum.cpp" />
+    <ClCompile Include="DivideCoins.cpp" />
   </ItemGroup>
 </Project>

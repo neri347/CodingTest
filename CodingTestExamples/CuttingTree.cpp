@@ -2,7 +2,6 @@
 /// https://www.acmicpc.net/problem/2805
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 
 int main()
@@ -12,26 +11,23 @@ int main()
 	vector<int> trees;
 	for (int i = 0; i < N; i++)
 	{
-		int num;
-		cin >> num;
-		trees.push_back(num);
+		int v;
+		cin >> v;
+		trees.push_back(v);
 	}
 
-	int maxTree = *max_element(trees.begin(), trees.end());
 	long long answer = 0;
-	// ÀÌºÐÅ½»ö
 	long long left = 0;
-	long long right = maxTree - 1;
+	long long right = 2'000'000'000;
 	while (left <= right)
 	{
 		long long mid = (left + right) / 2;
 		long long sum = 0;
-		for (int i = 0; i < N; i++)
+		for (auto& len : trees)
 		{
-			if (trees[i] > mid)
+			if (mid < len)
 			{
-				int cut = trees[i] - mid;
-				sum += cut;
+				sum += len - mid;
 			}
 		}
 		if (sum >= M)
@@ -42,9 +38,8 @@ int main()
 		else
 		{
 			right = mid - 1;
-		}		
+		}
 	}
 	cout << answer;
-
 	return 0;
 }

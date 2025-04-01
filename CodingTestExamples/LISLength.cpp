@@ -7,21 +7,21 @@
 using namespace std;
 
 // N은 현재 위치, 시작인덱스는 1
-// dp[N] = max(dp[K]) + 1 (1 <= K < N, arr[K] < arr[N])
 // dp[1] = 1
+// dp[N] = max(dp[N], dp[K] + 1) (1 <= K < N, arr[K] < arr[N])
 
 int solution(vector<int> nums)
 {
 	vector<int> dp(nums.size(), 0);
 	dp[0] = 1;
-	for (int N = 1; N < nums.size(); ++N)
+	for (int i = 1; i < nums.size(); i++)
 	{
-		dp[N] = 1;
-		for (int K = 0; K < N; ++K)
+		dp[i] = 1;
+		for (int j = 0; j < i; j++)
 		{
-			if (nums[N] > nums[K])
+			if (nums[j] < nums[i])
 			{
-				dp[N] = max(dp[N], dp[K] + 1);
+				dp[i] = max(dp[i], dp[j] + 1);
 			}
 		}
 	}
