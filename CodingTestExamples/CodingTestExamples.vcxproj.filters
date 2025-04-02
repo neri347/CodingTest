@@ -225,5 +225,8 @@
     <ClCompile Include="SugarDelivery.cpp" />
     <ClCompile Include="PartialSum.cpp" />
     <ClCompile Include="DivideCoins.cpp" />
+    <ClCompile Include="N-Queen.cpp" />
+    <ClCompile Include="IAmPokemonMasterDasomLee.cpp" />
+    <ClCompile Include="SayMiddle.cpp" />
   </ItemGroup>
 </Project>
