@@ -228,5 +228,6 @@
     <ClCompile Include="N-Queen.cpp" />
     <ClCompile Include="IAmPokemonMasterDasomLee.cpp" />
     <ClCompile Include="SayMiddle.cpp" />
+    <ClCompile Include="ListofUniqueNumbers.cpp" />
   </ItemGroup>
 </Project>
