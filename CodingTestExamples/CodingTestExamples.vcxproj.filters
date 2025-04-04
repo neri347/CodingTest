@@ -229,5 +229,7 @@
     <ClCompile Include="IAmPokemonMasterDasomLee.cpp" />
     <ClCompile Include="SayMiddle.cpp" />
     <ClCompile Include="ListofUniqueNumbers.cpp" />
+    <ClCompile Include="LongestPalindrome.cpp" />
+    <ClCompile Include="SimilarWords.cpp" />
   </ItemGroup>
 </Project>
