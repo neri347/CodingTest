@@ -231,5 +231,7 @@
     <ClCompile Include="ListofUniqueNumbers.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="SimilarWords.cpp" />
+    <ClCompile Include="Tower.cpp" />
+    <ClCompile Include="Alphabet.cpp" />
   </ItemGroup>
 </Project>
