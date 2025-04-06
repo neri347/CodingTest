@@ -233,5 +233,7 @@
     <ClCompile Include="SimilarWords.cpp" />
     <ClCompile Include="Tower.cpp" />
     <ClCompile Include="Alphabet.cpp" />
+    <ClCompile Include="AbsoluteHeap.cpp" />
+    <ClCompile Include="Parcel.cpp" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-/// ž
+/// 탑
 /// https://www.acmicpc.net/problem/2493
 #include <iostream>
 #include <vector>
