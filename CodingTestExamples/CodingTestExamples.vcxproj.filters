@@ -235,5 +235,7 @@
     <ClCompile Include="Alphabet.cpp" />
     <ClCompile Include="AbsoluteHeap.cpp" />
     <ClCompile Include="Parcel.cpp" />
+    <ClCompile Include="CainCalendar.cpp" />
+    <ClCompile Include="AdultShark.cpp" />
   </ItemGroup>
 </Project>
