@@ -237,5 +237,8 @@
     <ClCompile Include="Parcel.cpp" />
     <ClCompile Include="CainCalendar.cpp" />
     <ClCompile Include="AdultShark.cpp" />
+    <ClCompile Include="Statistics.cpp" />
+    <ClCompile Include="SnakeAndLadderGame.cpp" />
+    <ClCompile Include="BinarySearchTree_Baekjoon.cpp" />
   </ItemGroup>
 </Project>
