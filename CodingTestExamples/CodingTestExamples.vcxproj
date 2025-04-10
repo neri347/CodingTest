@@ -146,6 +146,7 @@
     <ClCompile Include="Camping.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="DSLR.cpp">
       <SubType>
