@@ -242,5 +242,6 @@
     <ClCompile Include="BinarySearchTree_Baekjoon.cpp" />
     <ClCompile Include="DSLR.cpp" />
     <ClCompile Include="Wormhall.cpp" />
+    <ClCompile Include="Camping.cpp" />
   </ItemGroup>
 </Project>
