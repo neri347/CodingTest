@@ -243,5 +243,6 @@
     <ClCompile Include="DSLR.cpp" />
     <ClCompile Include="Wormhall.cpp" />
     <ClCompile Include="Camping.cpp" />
+    <ClCompile Include="2xnTiling2.cpp" />
   </ItemGroup>
 </Project>
