@@ -247,5 +247,6 @@
     <ClCompile Include="SwanLake.cpp" />
     <ClCompile Include="PedestrianParadise.cpp" />
     <ClCompile Include="FoldingPaper.cpp" />
+    <ClCompile Include="ColoringBook.cpp" />
   </ItemGroup>
 </Project>
