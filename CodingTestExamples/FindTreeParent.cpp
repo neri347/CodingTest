@@ -6,17 +6,16 @@ using namespace std;
 
 int N;
 vector<vector<int>> graph;
-int parents[100001];
+vector<int> parents;
 
-void DFS(int node, int parent)
+void DFS(int x, int parent)
 {
-	parents[node] = parent;
-
-	for (auto& next : graph[node])
+	parents[x] = parent;
+	for (auto& child : graph[x])
 	{
-		if (parents[next] == 0)
+		if (child != parent)
 		{
-			DFS(next, node);
+			DFS(child, x);
 		}
 	}
 }
@@ -24,20 +23,21 @@ void DFS(int node, int parent)
 int main()
 {
 	cin >> N;
-	graph.resize(N + 1);
+	graph.resize(N);
+	parents.resize(N);
+
 	for (int i = 0; i < N - 1; i++)
 	{
-		int from, to;
-		cin >> from >> to;
-		graph[from].push_back(to);
-		graph[to].push_back(from);
+		int node1, node2;
+		cin >> node1 >> node2;
+		graph[node1 - 1].push_back(node2 - 1);
+		graph[node2 - 1].push_back(node1 - 1);
 	}
 
-	DFS(1, 1);
-
-	for (int i = 2; i <= N; i++)
+	DFS(0, 0);
+	for (int i = 1; i < parents.size(); i++)
 	{
-		cout << parents[i] << '\n';
+		cout << parents[i] + 1 << '\n';
 	}
 
 	return 0;
