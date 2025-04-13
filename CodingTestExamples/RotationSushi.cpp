@@ -37,7 +37,6 @@ int main()
 
 	for (int start = 1; start < N; start++)
 	{
-		choice[vec[start]]++;
 		choice[vec[end]]++;
 		end++;
 		if (end >= N)
