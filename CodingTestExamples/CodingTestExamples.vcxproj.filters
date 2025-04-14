@@ -249,5 +249,6 @@
     <ClCompile Include="FoldingPaper.cpp" />
     <ClCompile Include="ColoringBook.cpp" />
     <ClCompile Include="RotationSushi.cpp" />
+    <ClCompile Include="SumOneTwoThree.cpp" />
   </ItemGroup>
 </Project>

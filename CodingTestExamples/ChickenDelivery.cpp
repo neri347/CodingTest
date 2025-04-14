@@ -5,80 +5,74 @@
 #include <algorithm>
 #include <limits.h>
 using namespace std;
+
+int N, M;
+int board[50][50];
 vector<pair<int, int>> houses;
 vector<pair<int, int>> chickenJoints;
-vector<int> selected;
-int surviveCount;
-int minDist = INT_MAX;
+vector<pair<int, int>> survived;
+vector<int> distances;
+int answer = INT_MAX;
 
-int CalcDistance()
+void CheckDistance()
 {
-	int ret = 0;
-	// 한 집마다 치킨집까지 거리 구함
-	for (int i = 0; i < houses.size(); ++i)
+	distances.assign(houses.size(), INT_MAX);
+	for (int i = 0; i < survived.size(); i++)
 	{
-		int hx = houses[i].first;
-		int hy = houses[i].second;
-		int d = INT_MAX; // 집에서부터 가장 가까운 치킨집까지의 거리
-		for (int j = 0; j < selected.size(); ++j)
+		int x = survived[i].first;
+		int y = survived[i].second;
+		for (int j = 0; j < houses.size(); j++)
 		{
-			if (selected[j] == 1)
-			{
-				int cx = chickenJoints[j].first;
-				int cy = chickenJoints[j].second;
-				int dist = abs(hx - cx) + abs(hy - cy);
-				d = min(d, dist);
-			}
+			int cx = houses[j].first;
+			int cy = houses[j].second;
+			int distance = abs(x - cx) + abs(y - cy);
+			distances[j] = min(distances[j], distance);
 		}
-		ret += d;
 	}
 
-	return ret;
+	int total = 0;
+	for (auto& d : distances)
+	{
+		total += d;
+	}
+	answer = min(answer, total);
 }
 
-void SelectJoint()
+void DFS(int last, int count)
 {
-	for (int i = 0; i < chickenJoints.size() - surviveCount; ++i)
+	if (count == M)
 	{
-		selected.push_back(0);
+		CheckDistance();
+		return;
 	}
-	for (int i = 0; i < surviveCount; ++i)
+	for (int i = last + 1; i < chickenJoints.size(); i++)
 	{
-		selected.push_back(1);
+		survived.push_back(chickenJoints[i]);
+		DFS(i, count + 1);
+		survived.pop_back();
 	}
-
-	do
-	{
-		minDist = min(minDist, CalcDistance());
-	} while (next_permutation(selected.begin(), selected.end()));
 }
 
 int main()
 {
 	// 입력
-	int n;
-	cin >> n >> surviveCount;
-	for (int i = 0; i < n; ++i)
+	cin >> N >> M;
+	for (int i = 0; i < N; i++)
 	{
-		for (int j = 0; j < n; ++j)
+		for (int j = 0; j < N; j++)
 		{
-			int num;
-			cin >> num;
-			if (num == 1)
+			cin >> board[i][j];
+			if (board[i][j] == 1)
 			{
 				houses.push_back({ i, j });
 			}
-			else if (num == 2)
+			else if (board[i][j] == 2)
 			{
-				chickenJoints.push_back({ i,j });
+				chickenJoints.push_back({ i, j });
 			}
 		}
 	}
-
-	// 풀이
-	// 치킨집 중 surviveCount개를 고르고, 치킨거리 계산 후 갱신
-	SelectJoint();
-	cout << minDist;
-
+	DFS(-1, 0);
+	cout << answer;
 	return 0;
 }
