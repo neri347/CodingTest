@@ -250,5 +250,7 @@
     <ClCompile Include="ColoringBook.cpp" />
     <ClCompile Include="RotationSushi.cpp" />
     <ClCompile Include="SumOneTwoThree.cpp" />
+    <ClCompile Include="FibonacciFuction.cpp" />
+    <ClCompile Include="Cheese.cpp" />
   </ItemGroup>
 </Project>
