@@ -252,5 +252,8 @@
     <ClCompile Include="SumOneTwoThree.cpp" />
     <ClCompile Include="FibonacciFuction.cpp" />
     <ClCompile Include="Cheese.cpp" />
+    <ClCompile Include="StringExplosion.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="NewGame.cpp" />
   </ItemGroup>
 </Project>
