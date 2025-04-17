@@ -140,7 +140,6 @@
     <ClCompile Include="PlayHopscotch.cpp" />
     <ClCompile Include="PrivacyExpiration.cpp" />
     <ClCompile Include="PuzzleGameChallenge.cpp" />
-    <ClCompile Include="QuitCompany.cpp" />
     <ClCompile Include="RaiderChoragi.cpp" />
     <ClCompile Include="Red-GreenBlindness.cpp" />
     <ClCompile Include="RenewalMenu.cpp" />
@@ -255,5 +254,7 @@
     <ClCompile Include="StringExplosion.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="NewGame.cpp" />
+    <ClCompile Include="QuitCompany2.cpp" />
+    <ClCompile Include="LaserCommunication.cpp" />
   </ItemGroup>
 </Project>
