@@ -256,5 +256,9 @@
     <ClCompile Include="NewGame.cpp" />
     <ClCompile Include="QuitCompany2.cpp" />
     <ClCompile Include="LaserCommunication.cpp" />
+    <ClCompile Include="Build.cpp" />
+    <ClCompile Include="KevinBaconsSixStepRule.cpp" />
+    <ClCompile Include="SogangGround.cpp" />
+    <ClCompile Include="CityDivisionPlan.cpp" />
   </ItemGroup>
 </Project>
