@@ -260,5 +260,6 @@
     <ClCompile Include="KevinBaconsSixStepRule.cpp" />
     <ClCompile Include="SogangGround.cpp" />
     <ClCompile Include="CityDivisionPlan.cpp" />
+    <ClCompile Include="NAndM(9).cpp" />
   </ItemGroup>
 </Project>
