@@ -261,5 +261,7 @@
     <ClCompile Include="SogangGround.cpp" />
     <ClCompile Include="CityDivisionPlan.cpp" />
     <ClCompile Include="NAndM(9).cpp" />
+    <ClCompile Include="RankgameWaitList.cpp" />
+    <ClCompile Include="WizardSharkAndFireball.cpp" />
   </ItemGroup>
 </Project>
