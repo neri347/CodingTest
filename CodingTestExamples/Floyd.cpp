@@ -32,24 +32,20 @@ int main()
 		dist[from - 1][to - 1] = min(dist[from - 1][to - 1], cost);
 	}
 
-	// k = 거쳐가는 노드
-	for (int k = 0; k < N; k++)
+	for (int c = 0; c < N; c++)
 	{
-		// i = 시작 노드
 		for (int i = 0; i < N; i++)
 		{
-			// j = 도착 노드
 			for (int j = 0; j < N; j++)
 			{
-				if (dist[i][k] + dist[k][j] < dist[i][j])
+				if (dist[i][c] + dist[c][j] < dist[i][j])
 				{
-					dist[i][j] = dist[i][k] + dist[k][j];
+					dist[i][j] = dist[i][c] + dist[c][j];
 				}
 			}
 		}
 	}
 
-	// 출력
 	for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < N; j++)

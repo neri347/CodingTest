@@ -263,5 +263,9 @@
     <ClCompile Include="NAndM(9).cpp" />
     <ClCompile Include="RankgameWaitList.cpp" />
     <ClCompile Include="WizardSharkAndFireball.cpp" />
+    <ClCompile Include="LectureTour.cpp" />
+    <ClCompile Include="Odeungkeunsu.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="Shortcut.cpp" />
   </ItemGroup>
 </Project>
