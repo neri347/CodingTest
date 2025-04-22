@@ -267,5 +267,8 @@
     <ClCompile Include="Odeungkeunsu.cpp" />
     <ClCompile Include="Editor.cpp" />
     <ClCompile Include="Shortcut.cpp" />
+    <ClCompile Include="LCS2.cpp" />
+    <ClCompile Include="RouterInstallation.cpp" />
+    <ClCompile Include="LetsGoOnATrip.cpp" />
   </ItemGroup>
 </Project>
