@@ -270,5 +270,6 @@
     <ClCompile Include="LCS2.cpp" />
     <ClCompile Include="RouterInstallation.cpp" />
     <ClCompile Include="LetsGoOnATrip.cpp" />
+    <ClCompile Include="MakePasswords.cpp" />
   </ItemGroup>
 </Project>
