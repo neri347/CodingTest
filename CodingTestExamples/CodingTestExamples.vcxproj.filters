@@ -271,5 +271,7 @@
     <ClCompile Include="RouterInstallation.cpp" />
     <ClCompile Include="LetsGoOnATrip.cpp" />
     <ClCompile Include="MakePasswords.cpp" />
+    <ClCompile Include="Algospot.cpp" />
+    <ClCompile Include="TurnOnBulb.cpp" />
   </ItemGroup>
 </Project>
