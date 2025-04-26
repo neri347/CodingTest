@@ -276,5 +276,7 @@
     <ClCompile Include="AlphabeticalLCS.cpp" />
     <ClCompile Include="MaximumSubSequenceScore.cpp" />
     <ClCompile Include="Party.cpp" />
+    <ClCompile Include="LineUp.cpp" />
+    <ClCompile Include="Mineral.cpp" />
   </ItemGroup>
 </Project>

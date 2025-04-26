@@ -24,10 +24,6 @@ struct Cmp
 
 vector<Info> graph[501][501];
 int rotates[501][501];
-int sx[4] = { 1,0,0,-1 };
-int sy[4] = { 0,1,-1,0 };
-int dx[4] = { -1,-1,1,1 };
-int dy[4] = { -1,1,-1,1 };
 
 int main()
 {
