@@ -278,5 +278,6 @@
     <ClCompile Include="Party.cpp" />
     <ClCompile Include="LineUp.cpp" />
     <ClCompile Include="Mineral.cpp" />
+    <ClCompile Include="MergeFiles.cpp" />
   </ItemGroup>
 </Project>
