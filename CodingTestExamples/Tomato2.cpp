@@ -3,74 +3,76 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <tuple>
 using namespace std;
 
-int dx[4] = { -1,1,0,0 };
-int dy[4] = { 0,0,-1,1 };
-int dh[2] = { -1,1 };
+int map[100][100][100];
+bool isVisited[100][100][100];
+int dx[4] = { 1,0,0,-1 };
+int dy[4] = { 0,1,-1,0 };
+int dh[2] = { 1,-1 };
+
+struct Pos
+{
+	int x;
+	int y;
+	int h;
+	int second;
+};
 
 int main()
 {
-	int N, M, H;
+	int M, N, H;
 	cin >> M >> N >> H;
-	vector<vector<vector<int>>> tomatoes;
-	vector<vector<vector<bool>>> isVisited(H, vector<vector<bool>>(N, vector<bool>(M, false)));
-	queue<tuple<int, int, int, int>> q; // h, n, m, count
-	int answer = 0;
-
+	queue<Pos> q;
 	for (int h = 0; h < H; h++)
 	{
-		vector<vector<int>> temp;
 		for (int i = 0; i < N; i++)
 		{
-			vector<int> vec;
 			for (int j = 0; j < M; j++)
 			{
-				int num;
-				cin >> num;
-				vec.push_back(num);
-				if (num == 1)
+				cin >> map[h][i][j];
+				if (map[h][i][j] == 1)
 				{
-					q.push({ h, i, j, 0 });
+					q.push({ i, j, h, 0 });
 					isVisited[h][i][j] = true;
 				}
 			}
-			temp.push_back(vec);
 		}
-		tomatoes.push_back(temp);
 	}
 
+	int answer = 0;
 	while (!q.empty())
 	{
-		int ch = get<0>(q.front());
-		int cx = get<1>(q.front());
-		int cy = get<2>(q.front());
-		int count = get<3>(q.front());
-		answer = count;
+		int x = q.front().x;
+		int y = q.front().y;
+		int h = q.front().h;
+		int s = q.front().second;
 		q.pop();
 
-		tomatoes[ch][cx][cy] = 1;
+		answer = s;
+
+		// 위, 아래
+		for (int i = 0; i < 2; i++)
+		{
+			int nh = h + dh[i];
+			if (nh >= 0 && nh < H && !isVisited[nh][x][y] && map[nh][x][y] == 0)
+			{
+				isVisited[nh][x][y] = true;
+				map[nh][x][y] = 1;
+				q.push({ x, y, nh, s + 1 });
+			}
+		}
 
 		// 상하좌우
 		for (int i = 0; i < 4; i++)
 		{
-			int nx = cx + dx[i];
-			int ny = cy + dy[i];
-			if (nx >= 0 && nx < N && ny >= 0 && ny < M && tomatoes[ch][nx][ny] == 0 && !isVisited[ch][nx][ny])
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if (nx >= 0 && nx < N && ny >= 0 && ny < M && !isVisited[h][nx][ny] && map[h][nx][ny] == 0)
 			{
-				isVisited[ch][nx][ny] = true;
-				q.push({ ch, nx, ny, count + 1 });
-			}
-		}
-		// 위, 아래 상자
-		for (int i = 0; i < 2; i++)
-		{
-			int nh = ch + dh[i];
-			if (nh >= 0 && nh < H && tomatoes[nh][cx][cy] == 0 && !isVisited[nh][cx][cy])
-			{
-				isVisited[nh][cx][cy] = true;
-				q.push({ nh, cx, cy, count + 1 });
+				isVisited[h][nx][ny] = true;
+				map[h][nx][ny] = 1;
+				q.push({ nx, ny, h, s + 1 });
 			}
 		}
 	}
@@ -81,7 +83,7 @@ int main()
 		{
 			for (int j = 0; j < M; j++)
 			{
-				if (tomatoes[h][i][j] == 0)
+				if (map[h][i][j] == 0)
 				{
 					cout << -1;
 					return 0;
@@ -91,6 +93,5 @@ int main()
 	}
 
 	cout << answer;
-
 	return 0;
 }
