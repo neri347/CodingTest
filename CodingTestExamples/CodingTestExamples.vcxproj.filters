@@ -232,7 +232,6 @@
     <ClCompile Include="SimilarWords.cpp" />
     <ClCompile Include="Tower.cpp" />
     <ClCompile Include="Alphabet.cpp" />
-    <ClCompile Include="AbsoluteHeap.cpp" />
     <ClCompile Include="Parcel.cpp" />
     <ClCompile Include="CainCalendar.cpp" />
     <ClCompile Include="AdultShark.cpp" />
@@ -280,5 +279,7 @@
     <ClCompile Include="Mineral.cpp" />
     <ClCompile Include="MergeFiles.cpp" />
     <ClCompile Include="WordMath.cpp" />
+    <ClCompile Include="AbsoluteHeap.cpp" />
+    <ClCompile Include="Exercise.cpp" />
   </ItemGroup>
 </Project>

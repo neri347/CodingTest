@@ -1,3 +1,5 @@
+/// Àý´ñ°ª Èü
+/// https://www.acmicpc.net/problem/11286
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -8,13 +10,11 @@ struct Cmp
 {
 	bool operator()(int a, int b)
 	{
-		int aa = abs(a);
-		int ab = abs(b);
-		if (aa == ab)
+		if (abs(a) == abs(b))
 		{
 			return a > b;
 		}
-		return aa > ab;
+		return abs(a) < abs(b);
 	}
 };
 
@@ -23,26 +23,26 @@ int main()
 	int N;
 	cin >> N;
 	priority_queue<int, vector<int>, Cmp> pq;
+	
 	for (int i = 0; i < N; i++)
 	{
-		int v;
-		cin >> v;
-		if (v == 0)
+		int x;
+		cin >> x;
+		if (x == 0)
 		{
-			if (!pq.empty())
+			if (pq.empty())
 			{
-				cout << pq.top() << '\n';
-				pq.pop();
+				cout << 0;
+				continue;
 			}
-			else
-			{
-				cout << 0 << '\n';
-			}
+			cout << pq.top();
+			pq.pop();
 		}
 		else
 		{
-			pq.push(v);
+			pq.push(x);
 		}
+		cout << '\n';
 	}
 	return 0;
 }
