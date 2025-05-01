@@ -281,5 +281,6 @@
     <ClCompile Include="WordMath.cpp" />
     <ClCompile Include="AbsoluteHeap.cpp" />
     <ClCompile Include="Exercise.cpp" />
+    <ClCompile Include="FruitsTanghulu.cpp" />
   </ItemGroup>
 </Project>
