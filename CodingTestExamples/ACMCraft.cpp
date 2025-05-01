@@ -1,64 +1,68 @@
+/// ACM Craft
+/// https://www.acmicpc.net/problem/1005
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 using namespace std;
 
 int main()
 {
 	int T;
 	cin >> T;
-	for (int i = 0; i < T; i++)
+	for (int t = 0; t < T; t++)
 	{
 		int N, K;
-		int endPoint;
 		cin >> N >> K;
-		vector<int> times(N + 1, 0);
-		vector<vector<int>> connected(N + 1);
-		vector<int> degree(N + 1, 0); // 시작건물은 차수가 0이다.
-		vector<int> dp(N + 1, 0);
-		// 입력
-		for (int j = 1; j <= N; j++)
+
+		vector<int> times;
+		for (int i = 0; i < N; i++)
 		{
 			int time;
 			cin >> time;
-			times[j] = time;
+			times.push_back(time);
 		}
-		for (int j = 0; j < K; ++j)
+
+		vector<vector<int>> graph(N + 1);
+		vector<int> connected(N + 1, 0);
+		vector<int> dp(N + 1, 0);
+		for (int i = 0; i < K; i++)
 		{
 			int from, to;
 			cin >> from >> to;
-			connected[from].push_back(to);
-			degree[to]++;
+			graph[from].push_back(to);
+			connected[to]++;
 		}
-		cin >> endPoint;
 
-		// 풀이
+		int W;
+		cin >> W;
+
 		queue<int> q;
-		for (int j = 1; j < degree.size(); j++)
+		for (int i = 1; i < connected.size(); i++)
 		{
-			if (degree[j] == 0)
+			if (connected[i] == 0)
 			{
-				q.push(j);
-				dp[j] = times[j];
+				dp[i] = times[i - 1];
+				q.push(i);
 			}
 		}
 
 		while (!q.empty())
 		{
-			int idx = q.front();
+			int num = q.front();
 			q.pop();
 
-			for (int node : connected[idx])
+			for (auto& next : graph[num])
 			{
-				dp[node] = max(dp[node], dp[idx] + times[node]);
-				if (--degree[node] == 0)
+				dp[next] = max(dp[next], dp[num] + times[next - 1]);
+				connected[next]--;
+				if (connected[next] == 0)
 				{
-					q.push(node);
+					q.push(next);
 				}
 			}
 		}
-
-		cout << dp[endPoint] << "\n";
+		cout << dp[W] << '\n';
 	}
 	return 0;
 }
