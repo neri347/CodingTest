@@ -282,5 +282,6 @@
     <ClCompile Include="AbsoluteHeap.cpp" />
     <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="FruitsTanghulu.cpp" />
+    <ClCompile Include="App.cpp" />
   </ItemGroup>
 </Project>
