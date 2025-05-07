@@ -24,14 +24,13 @@ int main()
 	dp[0] = board[0][0];
 	dp[1] = board[0][1];
 	dp[2] = board[0][2];
-
 	for (int i = 1; i < N; i++)
 	{
 		temp[0] = dp[0];
 		temp[1] = dp[1];
 		temp[2] = dp[2];
 		dp[0] = max(temp[0], temp[1]) + board[i][0];
-		dp[1] = max({ temp[0], temp[1], temp[2]}) + board[i][1];
+		dp[1] = max({ temp[0], temp[1], temp[2] }) + board[i][1];
 		dp[2] = max(temp[1], temp[2]) + board[i][2];
 	}
 	cout << *max_element(dp.begin(), dp.end()) << ' ';
@@ -39,7 +38,6 @@ int main()
 	dp[0] = board[0][0];
 	dp[1] = board[0][1];
 	dp[2] = board[0][2];
-
 	for (int i = 1; i < N; i++)
 	{
 		temp[0] = dp[0];
@@ -49,7 +47,7 @@ int main()
 		dp[1] = min({ temp[0], temp[1], temp[2] }) + board[i][1];
 		dp[2] = min(temp[1], temp[2]) + board[i][2];
 	}
-
 	cout << *min_element(dp.begin(), dp.end());
+
 	return 0;
 }
