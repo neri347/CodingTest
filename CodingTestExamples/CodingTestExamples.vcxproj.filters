@@ -283,5 +283,8 @@
     <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="FruitsTanghulu.cpp" />
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="Rainwater.cpp" />
+    <ClCompile Include="RoadCheck.cpp" />
+    <ClCompile Include="Zelda.cpp" />
   </ItemGroup>
 </Project>
