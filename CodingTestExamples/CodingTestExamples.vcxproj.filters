@@ -286,5 +286,7 @@
     <ClCompile Include="Rainwater.cpp" />
     <ClCompile Include="RoadCheck.cpp" />
     <ClCompile Include="Zelda.cpp" />
+    <ClCompile Include="Coin0.cpp" />
+    <ClCompile Include="JewelThief.cpp" />
   </ItemGroup>
 </Project>
