@@ -288,5 +288,7 @@
     <ClCompile Include="Zelda.cpp" />
     <ClCompile Include="Coin0.cpp" />
     <ClCompile Include="JewelThief.cpp" />
+    <ClCompile Include="Stock.cpp" />
+    <ClCompile Include="GasStation.cpp" />
   </ItemGroup>
 </Project>
