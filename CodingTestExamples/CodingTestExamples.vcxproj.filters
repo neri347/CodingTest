@@ -290,5 +290,7 @@
     <ClCompile Include="JewelThief.cpp" />
     <ClCompile Include="Stock.cpp" />
     <ClCompile Include="GasStation.cpp" />
+    <ClCompile Include="RobotCleaner(2).cpp" />
+    <ClCompile Include="IsPalindrome.cpp" />
   </ItemGroup>
 </Project>
