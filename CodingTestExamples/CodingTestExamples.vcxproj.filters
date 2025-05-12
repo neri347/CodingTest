@@ -292,5 +292,6 @@
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="RobotCleaner(2).cpp" />
     <ClCompile Include="IsPalindrome.cpp" />
+    <ClCompile Include="VillainHoseok.cpp" />
   </ItemGroup>
 </Project>
