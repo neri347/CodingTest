@@ -293,5 +293,6 @@
     <ClCompile Include="RobotCleaner(2).cpp" />
     <ClCompile Include="IsPalindrome.cpp" />
     <ClCompile Include="VillainHoseok.cpp" />
+    <ClCompile Include="SortingCards.cpp" />
   </ItemGroup>
 </Project>

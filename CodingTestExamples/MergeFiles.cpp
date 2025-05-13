@@ -5,6 +5,8 @@
 #include <algorithm>
 using namespace std;
 
+const int MAX = 999999999;
+
 int main()
 {
 	int T;
@@ -13,39 +15,32 @@ int main()
 	{
 		int N;
 		cin >> N;
-		vector<int> vec;
-		for (int i = 0; i < N; i++)
+		vector<int> vec(N + 1, 0);
+		for (int i = 1; i <= N; i++)
 		{
-			int v;
-			cin >> v;
-			vec.push_back(v);
+			cin >> vec[i];
 		}
-		vector<vector<int>> dp(N, vector<int>(N, 0));
+		vector<vector<int>> dp(N + 1, vector<int>(N + 1, 0));
+		vector<int> sums(N + 1, 0);
 		// 누적합 구하기
-		for (int i = 0; i < N - 1; i++)
+		for (int i = 1; i <= N; i++)
 		{
-			dp[i][i + 1] = vec[i] + vec[i + 1];
-			for (int j = i + 2; j < N; j++)
+			sums[i] = sums[i - 1] + vec[i];
+		}
+
+		for (int count = 1; count <= N; count++)
+		{
+			for (int start = 1; start <= N - count; start++)
 			{
-				dp[i][j] = dp[i][j - 1] + vec[j];
+				dp[start][start + count] = MAX;
+				for (int mid = start; mid < start + count; mid++)
+				{
+					dp[start][start + count] = min(dp[start][start + count], dp[start][mid] + dp[mid + 1][start + count] + sums[start + count] - sums[start - 1]);
+				}
 			}
 		}
 
-		//dp[i][j] = sum[i][j] + min(0~j까지 합한 값)
-		for (int count = 2; count < N; count++)
-		{
-			for (int i = 0; i < N - count; i++)
-			{
-				int j = i + count;
-				int minCost = 99999999;
-				for (int x = i; x < j; x++)
-				{
-					minCost = min(minCost, dp[i][x] + dp[x + 1][j]);
-				}
-				dp[i][j] += minCost;
-			}
-		}
-		cout << dp[0][N - 1] << '\n';
+		cout << dp[1][N] << '\n';
 	}
 	return 0;
 }
