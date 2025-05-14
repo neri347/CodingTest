@@ -294,5 +294,7 @@
     <ClCompile Include="IsPalindrome.cpp" />
     <ClCompile Include="VillainHoseok.cpp" />
     <ClCompile Include="SortingCards.cpp" />
+    <ClCompile Include="FindAllAnagramsInaString.cpp" />
+    <ClCompile Include="AandB2.cpp" />
   </ItemGroup>
 </Project>
