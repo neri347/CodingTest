@@ -296,5 +296,8 @@
     <ClCompile Include="SortingCards.cpp" />
     <ClCompile Include="FindAllAnagramsInaString.cpp" />
     <ClCompile Include="AandB2.cpp" />
+    <ClCompile Include="ClassroomAssignment.cpp" />
+    <ClCompile Include="Poliomino.cpp" />
+    <ClCompile Include="WaterBottles.cpp" />
   </ItemGroup>
 </Project>
