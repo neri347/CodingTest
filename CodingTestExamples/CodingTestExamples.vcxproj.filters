@@ -299,5 +299,6 @@
     <ClCompile Include="ClassroomAssignment.cpp" />
     <ClCompile Include="Poliomino.cpp" />
     <ClCompile Include="WaterBottles.cpp" />
+    <ClCompile Include="Sensor.cpp" />
   </ItemGroup>
 </Project>
