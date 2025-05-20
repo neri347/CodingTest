@@ -300,5 +300,7 @@
     <ClCompile Include="Poliomino.cpp" />
     <ClCompile Include="WaterBottles.cpp" />
     <ClCompile Include="Sensor.cpp" />
+    <ClCompile Include="Exchange.cpp" />
+    <ClCompile Include="SafeArea.cpp" />
   </ItemGroup>
 </Project>
