@@ -302,5 +302,6 @@
     <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="Exchange.cpp" />
     <ClCompile Include="SafeArea.cpp" />
+    <ClCompile Include="Teaching.cpp" />
   </ItemGroup>
 </Project>
