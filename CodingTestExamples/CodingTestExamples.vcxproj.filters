@@ -303,5 +303,6 @@
     <ClCompile Include="Exchange.cpp" />
     <ClCompile Include="SafeArea.cpp" />
     <ClCompile Include="Teaching.cpp" />
+    <ClCompile Include="FriendsNetwork.cpp" />
   </ItemGroup>
 </Project>
